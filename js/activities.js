@@ -28,7 +28,7 @@ import boxingImage from "../imgs/mainImgs/boxing.jpg";
 import surfingImage from "../imgs/mainImgs/beach.jpg";
 import tableTennisImage from "../imgs/mainImgs/tabletennis.jpg";
 import gymImage from "../imgs/mainImgs/gym.jpg";
-import hikingImage from "../imgs/mainImgs/hiking.jpeg";
+import hikingImage from "../imgs/mainImgs/hiking.jpg";
 import basketballImage from "../imgs/mainImgs/basketball.jpg";
 import runningImage from "../imgs/mainImgs/running.jpg";
 import rockClimbingImage from "../imgs/mainImgs/rock-climbing.jpg";
