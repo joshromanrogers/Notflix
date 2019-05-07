@@ -1,3 +1,3 @@
 node_modules
-imgs/art-class.jpg
-imgs/mainImgs/art-class.jpg
+.cache
+dist
