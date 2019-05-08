@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "predeploy": "rm -rf dist && parcel build index.html --public-url /notflix",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url ./dist/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
