@@ -382,7 +382,7 @@ button,
 
 .up,
 .down {
-  width: 60%;
+  width: 40px;
 }
 
 .up,
@@ -423,7 +423,7 @@ button,
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  width: 20%;
+  width: 50px;
 }
 
 .refresh:hover, .up:hover, .down:hover {
