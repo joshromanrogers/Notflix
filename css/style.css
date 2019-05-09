@@ -227,6 +227,7 @@ button,
   -ms-grid-column: 3;
   grid-area: central-container;
   border: 1px solid black;
+  background-color: #141414;
 }
 
 .central-container > .img {

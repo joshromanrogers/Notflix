@@ -22,10 +22,13 @@ export default function updateCentralContainer() {
 		shuffle(currentArr);
 	}
 
+
 	// 2.
 	img.style.background = `url('${currentArr[x].media}')`;
+	TweenMax.fromTo(".img", 1, {opacity:0}, {opacity:1});
 	img.style.backgroundSize = "cover";
 	name.innerHTML = currentArr[x].name;
+	TweenMax.fromTo(".activity-info", 1, {opacity:0}, {opacity:1});
 	let str = name.innerHTML;
 	str = str.replace(/ /g, "+");
 	activityInfoA.setAttribute("href", `https://www.google.com/search?q=${str}+near+me`);
