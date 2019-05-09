@@ -25,7 +25,7 @@ export default function updateCentralContainer() {
 
 	// 2.
 	img.style.background = `url('${currentArr[x].media}')`;
-	TweenMax.fromTo(".img", 1, {opacity:0}, {opacity:1});
+	TweenMax.fromTo(".img", 2, {opacity:0}, {opacity:1});
 	img.style.backgroundSize = "cover";
 	name.innerHTML = currentArr[x].name;
 	TweenMax.fromTo(".activity-info", 1, {opacity:0}, {opacity:1});
